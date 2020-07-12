@@ -1,5 +1,5 @@
 # Thumbnail_Showcase
-HTML Thumbnail Showcase or image library [Preview]()
+HTML Thumbnail Showcase or image library [Preview](https://sharishth.github.io/Thumbnail_Showcase/)
 
 # Version
 v1.0.0
