@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+.ul-menu {
+    height: 5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: max-content;
+}
+
+.li-menu {
+    float: left;
+}
+
+.li-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    border: solid white 2px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 1.25rem;
+    background-color: black;
+    font-weight: bold;
+    border: solid 2px white;
+    
+    font-family: 'Arimo', sans-serif;
+
+}
+
+.text-grad-cyanblue {
+    background: -webkit-linear-gradient(right, #5433ff, #a5fecb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.li-menu a:hover:not(.active) {
+    background-color: white;
+    border: solid white 2px;
+    color: black;
+    text-decoration: underline;
+}
+
+.active a {
+    background-color: white;
+    border: solid white 2px;
+    color: black;
+    text-decoration: underline;
+}
+
+.a-button {
+    color: azure;
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 4px;
+    text-align: center;
+    
+}
+.a-button:hover {
+    color: black;
+    text-decoration: none;
+    border: solid 1px azure;
+    padding: 4px;
+    background-color: azure;
+}
+
+.thumber {
+    background-color: aliceblue;
+    opacity: 0.75;
+    max-width: max-content;
+    border-style: none;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.thumber img {
+    border-radius: 20px 20px 0px 0px;
+}
+.thumber a {
+    
+    text-decoration: none;
+    color: black;
+}
+.thumber:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
